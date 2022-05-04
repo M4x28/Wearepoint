@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fjievefd/beta.wearepoint.net/
+    - /bin/cp -R * $DEPLOYPATH
